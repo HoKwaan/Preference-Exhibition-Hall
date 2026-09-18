@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="세 사람의 취향에서, 당신의 다음 취향을 발견하세요. 영화·음악·책 발견 사이트를 모으는 취향 전시관입니다.">
+  <meta name="description" content="당신의 다음 취향을 발견하세요. 영화·음악·책 발견 사이트를 모으는 취향 전시관입니다.">
   <title>음악 전시관 | 취향 전시관</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/style.css">
@@ -230,10 +230,69 @@
     </section>
   </main>
 
+    <section class="category-hero">
+      <p class="eyebrow">제02전시관</p>
+      <h1>음악 발견 사이트</h1>
+      <p class="category-lead">오늘의 기분에, 한 곡 더.</p>
+      <p>익숙한 멜로디 바깥에서 새로운 소리를 만나세요.</p>
+    </section>
+    <section class="collection section" aria-labelledby="collection-title">
+      <div class="section-heading">
+        <h2 id="collection-title">음악 추천 선반</h2>
+      </div>
+      <div class="collection-tools" hidden>
+        <div class="search-field">
+          <label for="site-search">사이트 이름·태그 검색</label>
+          <input id="site-search" type="search" placeholder="이름이나 태그를 입력하세요" autocomplete="off">
+        </div>
+        <button class="random-button" type="button">우연한 발견 <span aria-hidden="true">↗</span></button>
+      </div>
+      <p class="result-count" role="status" aria-live="polite" aria-atomic="true"></p>
+      <noscript><p>검색과 무작위 추천을 이용하려면 자바스크립트를 켜 주세요. 사이트 카드는 아래에서 모두 볼 수 있습니다.</p></noscript>
+      
+      <div class="card-grid" id="site-list">
+        <!-- IVE - LOVE DIVE -->
+        <article class="site-card" tabindex="-1">
+          <h3 class="site-name">IVE (아이브) - LOVE DIVE</h3>
+          <p class="card-intro">몽환적이면서도 중독성 강한 훅이 인상적인 딥 하우스 팝.</p>
+          <dl>
+            <dt>이런 분께</dt>
+            <dd>세련된 사운드와 입체적인 후렴구의 댄스곡을 원하시는 분</dd>
+            <dt>추천 이유</dt>
+            <dd>사랑에 뛰어들 용기가 있다면 주저 없이 빠져들라는 메시지와 함께 강렬하고 오묘한 멜로디 라인이 매력적인 곡입니다.</dd>
+          </dl>
+          <ul class="tags" aria-label="태그"><li>IVE</li><li>댄스팝</li><li>몽환적</li></ul>
+          <a class="site-link" href="https://www.youtube.com/watch?v=Y8JFxS1HlDo" target="_blank" rel="noopener noreferrer">YouTube에서 감상하기 <span aria-hidden="true">↗</span><span class="sr-only"> (새 탭)</span></a>
+        </article>
+
+        <!-- DAY6 - 한 페이지가 될 수 있게 -->
+        <article class="site-card" tabindex="-1">
+          <h3 class="site-name">DAY6 (데이식스) - 한 페이지가 될 수 있게</h3>
+          <p class="card-intro">청춘의 벅찬 순간을 에너제틱하게 담아낸 K-밴드 대표곡.</p>
+          <dl>
+            <dt>이런 분께</dt>
+            <dd>드라이브할 때나 벅차오르는 감성을 느끼고 싶을 때 들을 음악을 찾는 분</dd>
+            <dt>추천 이유</dt>
+            <dd>시원한 드럼 사운드와 기타 리프, 파워풀한 가창력이 만나 청춘의 한 페이지를 기억하게 만드는 에너지를 선사합니다.</dd>
+          </dl>
+          <ul class="tags" aria-label="태그"><li>DAY6</li><li>K밴드</li><li>청춘감성</li></ul>
+          <a class="site-link" href="https://www.youtube.com/watch?v=vnS_jn2uibs" target="_blank" rel="noopener noreferrer">YouTube에서 감상하기 <span aria-hidden="true">↗</span><span class="sr-only"> (새 탭)</span></a>
+        </article>
+      </div>
+
+      <div class="empty-state" hidden>
+        <h3>아직 발견하지 못했어요.</h3>
+        <p>다른 사이트 이름이나 태그로 검색해 보세요.</p>
+        <button type="button" class="reset-search">검색 지우고 전체 보기</button>
+      </div>
+      <p class="collection-end">하나의 발견에서, 다음 취향으로.</p>
+    </section>
+  </main>
   <footer class="site-footer wrap">
     <a href="index.html">취향 전시관</a>
     <p>취향은 달라도, 발견은 함께.</p>
     <span>영화 · 음악 · 책</span>
   </footer>
 </body>
+</html>
 </html>
