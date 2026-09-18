@@ -13,7 +13,7 @@ JavaScript를 끄더라도 카드와 링크는 표시되며 검색·무작위 �
 
 ## 폴더 구조
 ```text
-├── index.html          # 메인·공통 추천 선반
+├── index.html          # 메인·팀 소개·공통 추천 선반
 ├── movies.html         # A: 영화
 ├── music.html          # B: 음악
 ├── books.html          # C: 책
